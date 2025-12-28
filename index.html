@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 고등학교 3년</title>
+    <style>
+        /* 여기에 CSS 스타일을 넣었습니다. */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #67729D; /* 차분한 파란색 */
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+            margin-bottom: 2em;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 1.2em;
+            font-style: italic;
+            opacity: 0.8;
+        }
+
+        nav {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
+        nav a {
+            color: #67729D;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #2A3B55;
+        }
+
+        section {
+            padding: 2em;
+            margin-bottom: 2em;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        section h2 {
+            color: #67729D;
+            border-bottom: 2px solid #67729D;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+            font-weight: 600;
+        }
+
+        .memory-item {
+            margin-bottom: 1.5em;
+            padding: 1em;
+            border-left: 5px solid #67729D;
+            background-color: #f0f4f8;
+            border-radius: 5px;
+        }
+
+        .memory-item h3 {
+            color: #67729D;
+            margin-bottom: 0.5em;
+            font-weight: 500;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5em;
+            padding: 1em;
+        }
+
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #67729D;
+            color: white;
+            margin-top: 2em;
+        }
+
+        footer p {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+
+        /* 반응형 디자인 */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav a {
+                margin: 0 0.5em;
+            }
+
+            .image-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>나의 빛나는 고등학교 3년</h1>
+        <p>추억과 성장의 기록</p>
+    </header>
+
+    <nav>
+        <a href="#intro">소개</a> |
+        <a href="#memories">추억들</a> |
+        <a href="#gallery">사진 갤러리</a> |
+        <a href="#reflection">회고</a>
+    </nav>
+
+    <section id="intro">
+        <h2>소개</h2>
+        <p>안녕하세요! 이 웹페이지는 저의 고등학교 3년간의 추억을 담은 공간입니다. 설렘 가득했던 입학부터 치열했던 수험 생활, 그리고 아쉬움과 기쁨이 교차했던 졸업까지, 잊지 못할 순간들을 함께 나누고 싶습니다. 이 페이지를 통해 저의 성장과정과 감정을 공유하며, 작은 위로와 공감을 얻으실 수 있기를 바랍니다.</p>
+    </section>
+
+    <section id="memories">
+        <h2>추억들</h2>
+        <div class="memory-item">
+            <h3>1학년: 설렘과 도전</h3>
+            <p>고등학교 입학식 날, 새로운 친구들과 선생님들을 만나며 설렘과 긴장감을 동시에 느꼈습니다. 처음 치르는 시험에 대한 부담감도 있었지만, 친구들과 함께 공부하며 어려움을 이겨낼 수 있었습니다. 특히 기억에 남는 것은 학교 축제 때 친구들과 함께 댄스 동아리 공연을 준비하며 밤늦게까지 연습했던 시간입니다. 서툴지만 열정 가득했던 저희의 무대는 많은 사람들에게 웃음과 감동을 선사했습니다.</p>
+        </div>
+        <div class="memory-item">
+            <h3>2학년: 열정과 성장</h3>
+            <p>2학년 때는 학업에 더욱 집중하며 스스로 성장하는 것을 느꼈습니다. 특히, 평소 어려워했던 수학 과목에 흥미를 느끼게 되면서 자발적으로 공부 시간을 늘렸습니다. 그 결과, 수학 성적이 눈에 띄게 향상되었고, 성취감과 자신감을 얻을 수 있었습니다. 또한, 교내 토론 대회에 참가하여 다양한 주제에 대해 고민하고 논리적으로 주장하는 능력을 키울 수 있었습니다. </p>
+        </div>
+        <div class="memory-item">
+            <h3>3학년: 결실과 마무리</h3>
+            <p>3학년은 수능이라는 큰 목표를 향해 달려가는 과정이었습니다. 친구들과 서로 격려하고 응원하며 힘든 시간을 함께 이겨냈습니다. 때로는 지치고 포기하고 싶을 때도 있었지만, 서로에게 의지하며 마지막까지 최선을 다했습니다. 수능이 끝난 후, 친구들과 함께 여행을 떠나 그동안 쌓였던 스트레스를 풀고 즐거운 시간을 보냈습니다. 졸업식 날, 아쉬움과 함께 새로운 시작에 대한 기대감을 느꼈습니다.</p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>사진 갤러리</h2>
+        <div class="image-grid">
+            <img src="https://via.placeholder.com/400x300" alt="추억1">
+            <img src="https://via.placeholder.com/400x300" alt="추억2">
+            <img src="https://via.placeholder.com/400x300" alt="추억3">
+            <img src="https://via.placeholder.com/400x300" alt="추억4">
+            <img src="https://via.placeholder.com/400x300" alt="추억5">
+            <img src="https://via.placeholder.com/400x300" alt="추억6">
+        </div>
+    </section>
+
+    <section id="reflection">
+        <h2>회고</h2>
+        <p>고등학교 3년은 저에게 잊을 수 없는 소중한 시간이었습니다. 많은 경험을 통해 성장하고 성숙해질 수 있었으며, 평생 함께할 친구들을 만날 수 있었습니다. 때로는 힘들고 좌절할 때도 있었지만, 포기하지 않고 끊임없이 도전하며 어려움을 극복해나갔습니다. 앞으로도 고등학교 시절의 경험을 바탕으로 더욱 발전된 사람이 되기 위해 노력할 것입니다. 이 웹페이지를 방문해주신 모든 분들께 감사드립니다.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 나의 고등학교 3년. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // 여기에 JavaScript 코드를 넣을 겁니다. (필요한 경우)
+    </script>
+</body>
+</html>
